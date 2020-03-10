@@ -54,12 +54,7 @@ fn handle_response(response: &str) -> Result<()> {
 
     let s = if amount > 1 { "s" } else { "" };
     println!("Found {} result{} \n", amount, s);
-
-    if amount == 0 {
-        println!("ADASDASD");
-        return Ok(())
-    }
-
+    
     for emoji in emojis {
         println!("{}", emoji.character);
     }
