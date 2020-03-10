@@ -1,0 +1,12 @@
+[package]
+name = "emoti"
+version = "0.1.0"
+authors = ["FinleyG <finleygarton12@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+dotenv_codegen = "0.15.0"
+rand = "0.5.3"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+ureq = { version = "*", features = ["charset"] }
